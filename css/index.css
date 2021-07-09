@@ -52,13 +52,17 @@ nav a{
 nav img{
     position: relative;
     right: 10px;
+    margin-top: 5px;
 }
 .jumboImg {
-    display: flex;
-    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 .spanImg {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 ol, ul {
 	list-style: none;
