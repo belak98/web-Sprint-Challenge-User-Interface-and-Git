@@ -187,11 +187,9 @@ footer nav a {
     max-width: 380px;
 }
 .boxContainer {
-    display: flex;
-    flex-flow: column wrap;
     max-width: 380px;
     border-bottom: 1px dashed black;
-    margin: 20px auto;
+    margin:  20px auto;
     padding-bottom: 20px;
 }
 .middle-content-about {
@@ -215,5 +213,24 @@ footer nav a {
 .boxContainer p {
     position: relative;
     bottom: 15px;
-    right: 8px;
+    left: 2px;
 }
+.boxContainer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid gray;
+    height: 40px;
+    width: 135px;
+    border-radius: 12px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 780px;
+    margin: 20px auto;
+}
+/* look through the doc and see if this can be condensed in any way there may be some mistakes i was very tired writing this code... */
