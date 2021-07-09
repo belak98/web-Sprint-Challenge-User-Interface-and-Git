@@ -190,7 +190,9 @@ footer nav a {
     display: flex;
     flex-flow: column wrap;
     max-width: 380px;
-    margin: 10px;
+    border-bottom: 1px dashed black;
+    margin: 20px auto;
+    padding-bottom: 20px;
 }
 .middle-content-about {
     display: flex;
@@ -204,4 +206,14 @@ footer nav a {
     border-bottom: 1px dashed black;
     max-width: 800px;
     margin: 20px auto;
+}
+.boxContainer h2 {
+    padding: 10px;
+    position: relative;
+    right: 8px;
+}
+.boxContainer p {
+    position: relative;
+    bottom: 15px;
+    right: 8px;
 }
