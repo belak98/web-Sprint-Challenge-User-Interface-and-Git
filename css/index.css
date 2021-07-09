@@ -190,21 +190,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.container-about-page, 
+.middle-content-about, 
+.dotted-border-top {
+    margin: 0 auto;
+}
+
 .container-about-page {
     max-width: 780px;
-    margin: 0 auto;
-    padding: 20px;
+    padding-bottom: 20px
 }
 
 .box-img {
     max-width: 380px;
+    box-sizing: content-box;
 }
 
 .boxContainer {
     max-width: 380px;
     border-bottom: 1px dashed black;
-    margin:  10px auto;
-    padding: 20px;
+    margin:  20px auto;
+    padding-bottom: 20px;
+
 }
 
 .middle-content-about {
@@ -213,13 +220,11 @@ footer nav a {
     justify-content: center;
     align-content: center;
     max-width: 800px;
-    margin: 0 auto;
 }
 
 .dotted-border-top {
     border-bottom: 1px dashed black;
     max-width: 800px;
-    margin: 0 auto;
 }
 
 .boxContainer h2 {
