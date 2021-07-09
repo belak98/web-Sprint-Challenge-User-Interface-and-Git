@@ -30,6 +30,19 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navContainr {
+    display: flex;
+    justify-content: space-evenly;
+}
+.jumboImg {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    height: auto;
+    width: 100vw;
 }
 ol, ul {
 	list-style: none;
